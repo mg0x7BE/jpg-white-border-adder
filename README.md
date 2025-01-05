@@ -16,6 +16,8 @@ Adds a white border to images in JPEG and PNG formats. The program is designed t
 - Automatically adds a white border with a width of 5% of the image's shortest side.
 - Preserves EXIF metadata for JPEG images.
 
+![Example](example.png)
+
 ## How to use
 
 ### Command Prompt (cmd.exe)
