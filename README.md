@@ -5,6 +5,7 @@
 ![GitHub Created At](https://img.shields.io/github/created-at/MaxGripe/jpg-white-border-adder)
 ![GitHub forks](https://img.shields.io/github/forks/MaxGripe/jpg-white-border-adder)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MaxGripe/jpg-white-border-adder)
+![OS](https://img.shields.io/badge/os-Windows-blue)
 
 # jpgWhiteBorderAdder
 
