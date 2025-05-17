@@ -1,10 +1,10 @@
 
-![Workflow Status](https://github.com/MaxGripe/jpg-white-border-adder/actions/workflows/dotnet.yml/badge.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/MaxGripe/jpg-white-border-adder)
-![GitHub License](https://img.shields.io/github/license/MaxGripe/jpg-white-border-adder)
-![GitHub Created At](https://img.shields.io/github/created-at/MaxGripe/jpg-white-border-adder)
-![GitHub forks](https://img.shields.io/github/forks/MaxGripe/jpg-white-border-adder)
-![GitHub Repo stars](https://img.shields.io/github/stars/MaxGripe/jpg-white-border-adder)
+![Workflow Status](https://github.com/mg0x7BE/jpg-white-border-adder/actions/workflows/dotnet.yml/badge.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/mg0x7BE/jpg-white-border-adder)
+![GitHub License](https://img.shields.io/github/license/mg0x7BE/jpg-white-border-adder)
+![GitHub Created At](https://img.shields.io/github/created-at/mg0x7BE/jpg-white-border-adder)
+![GitHub forks](https://img.shields.io/github/forks/mg0x7BE/jpg-white-border-adder)
+![GitHub Repo stars](https://img.shields.io/github/stars/mg0x7BE/jpg-white-border-adder)
 ![OS](https://img.shields.io/badge/os-Windows-blue)
 
 # jpgWhiteBorderAdder
