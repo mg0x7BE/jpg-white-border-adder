@@ -25,7 +25,7 @@ jobs:
           dotnet publish --runtime win-x64 -c Release -o "output/win-x64"
 
       - name: Create GitHub Release and Upload Artifact
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: "latest-${{ github.sha }}"
           name: "Auto-release"
