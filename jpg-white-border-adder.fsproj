@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PublishAot>true</PublishAot>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>jpg_white_border_adder</RootNamespace>
     <AssemblyName>jpgWhiteBorderAdder</AssemblyName>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
