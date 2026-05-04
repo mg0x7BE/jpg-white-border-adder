@@ -1,0 +1,35 @@
+name: .NET Build and Release
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    name: Build on Windows
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Build for Windows
+        run: |
+          dotnet publish --runtime win-x64 -c Release -o "output/win-x64"
+
+      - name: Create GitHub Release and Upload Artifact
+        if: github.event_name == 'push' && github.actor == 'mg0x7BE' 
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: "latest-${{ github.sha }}"
+          name: "Auto-release"
+          files: "output/win-x64/jpgWhiteBorderAdder.exe"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
