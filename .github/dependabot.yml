@@ -8,3 +8,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "System.Drawing.Common"
+        update-types: ["version-update:semver-major"]
